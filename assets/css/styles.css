@@ -37,10 +37,16 @@ header a {
 }
 #menu{
   font-size: 110%;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+#menu > li {
+  margin-bottom: 1em;
+} 
+.active{
+  border-bottom: 1px solid #3a3a3a;
 }
 /* main */
 main {
