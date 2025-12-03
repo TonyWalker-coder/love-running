@@ -86,3 +86,33 @@ footer {
   /*temporary height to visualize footer */
   height: 100px;
 }
+/* media queries for larger screens */
+@media (min-width: 768px) {
+  /* header styles for larger screens */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  /* nav styles for larger screens */
+  nav {
+    position: static;
+    box-shadow: none;
+    display: block !important;
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+  }
+  #menu {
+    display: flex;
+  }
+  #menu > li {
+    padding-left: 1rem;
+  }
+  .nav-toggle-label {
+    display: none;
+  }
+}
+  
