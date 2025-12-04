@@ -84,7 +84,15 @@ main {
 footer {
   background-color: orange;
   /*temporary height to visualize footer */
-  height: 100px;
+  height: 50px;
+/*  display: flex;
+  justify-content: center;
+  align-items: center;  */
+}
+footer ul{
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
 }
 /* media queries for larger screens */
 @media (min-width: 768px) {
