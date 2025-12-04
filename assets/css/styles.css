@@ -81,19 +81,21 @@ main {
   margin-top: 47px;
 }
 /* footer */
-footer {
-  background-color: orange;
-  /*temporary height to visualize footer */
-  height: 50px;
-/*  display: flex;
-  justify-content: center;
-  align-items: center;  */
-}
-footer ul{
-  list-style-type: none;
+#social-networks{
+  padding: 20px 0;
+  margin: 0;
   display: flex;
-  gap: 1.5rem;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
+#social-networks i{
+  font-size:160% ;
+  padding: 5%;
+  color: #3a3a3a;
+
+}
+
+
 /* media queries for larger screens */
 @media (min-width: 768px) {
   /* header styles for larger screens */
