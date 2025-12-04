@@ -75,10 +75,17 @@ nav {
 }
 /* main */
 main {
-  background-color: lightblue;
   /* flex-grow to make main take up remaining space */
-  flex-grow: 1;
+  flex-grow: 1 0 auto;
   margin-top: 47px;
+}
+/* hero section */
+#hero{
+  /*height: 600px;*/
+  height:auto;
+  min-height: 800px;
+  width: 100%;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 /* footer */
 #social-networks{
